@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Refurbished High Quality Furniture - Sustainable and Stylish">
+    <title>Refurbished Furniture Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Refurbished Furniture Co.</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Our Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Transform Your Space with Refurbished High-Quality Furniture</h2>
+            <p>Eco-friendly, durable, and stylish pieces for your home or office.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>At Refurbished Furniture Co., we specialize in bringing old furniture back to life. Our experienced artisans restore and upcycle high-quality, vintage pieces to offer you sustainable, unique, and timeless furniture for your home or office.</p>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="products-section">
+        <h2>Featured Products</h2>
+        <div class="product-gallery">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300" alt="Refurbished Chair">
+                <h3>Refurbished Chair</h3>
+                <p>A comfortable and stylish vintage chair, reupholstered with premium fabric.</p>
+                <button>View Details</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300" alt="Restored Coffee Table">
+                <h3>Restored Coffee Table</h3>
+                <p>A classic wooden coffee table, beautifully refinished for modern living rooms.</p>
+                <button>View Details</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300" alt="Upcycled Desk">
+                <h3>Upcycled Desk</h3>
+                <p>A sturdy desk made from reclaimed wood, perfect for home offices.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Interested in purchasing or learning more about our products? Get in touch with us today!</p>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Refurbished Furniture Co. | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
